@@ -7,7 +7,7 @@ import { AlertCircle, CheckCircle2, Clock3, PlusCircle } from "lucide-react";
 export default function Dashboard({ user }) {
   const [items, setItems] = useState([]);
   useEffect(() => {
-    const q = query(collection(db, "chamados"), where("userId", "==", user.uid));
+    const q = collection(db, "chamados");
     return onSnapshot(q, snap => setItems(snap.docs.map(d => ({ id: d.id, ...d.data() }))));
   }, [user.uid]);
   const abertos = items.filter(i => i.status === "Aberto").length;
