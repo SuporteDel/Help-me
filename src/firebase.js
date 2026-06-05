@@ -1,15 +1,14 @@
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
-// COLE AQUI AS CONFIGURAÇÕES DO SEU FIREBASE
 const firebaseConfig = {
-  apiKey: 'COLE_SUA_API_KEY',
-  authDomain: 'COLE_SEU_AUTH_DOMAIN',
-  projectId: 'COLE_SEU_PROJECT_ID',
-  storageBucket: 'COLE_SEU_STORAGE_BUCKET',
-  messagingSenderId: 'COLE_SEU_MESSAGING_SENDER_ID',
-  appId: 'COLE_SEU_APP_ID'
+  apiKey: "AIzaSyD6cFoqRWi0oUMk8ojVuHectpifVQKhJ2o",
+  authDomain: "help-me-ti.firebaseapp.com",
+  projectId: "help-me-ti",
+  storageBucket: "help-me-ti.firebasestorage.app",
+  messagingSenderId: "1083229093787",
+  appId: "1:1083229093787:web:d16b36f681ca23a9f02b3e"
 };
 
 const app = initializeApp(firebaseConfig);
