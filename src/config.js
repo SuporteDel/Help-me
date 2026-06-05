@@ -1,5 +1,5 @@
 export const ADMIN_EMAILS = [
-  "admin1@empresa.com",
+  "Auxiliar.ti@fvadvocacia.com.br",
   "admin2@empresa.com",
   "admin3@empresa.com",
   "admin4@empresa.com",
